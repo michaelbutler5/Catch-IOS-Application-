@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+body{
+	font-family: 'Didact Gothic', sans-serif;
+	
+}
+h1{
+	font-size: 100px;
+	color: #EEEDED;
+	font-family: 'Kaushan Script', cursive;
+	align-content: center;
+}
+
+h2{
+	font-size: 18px;
+	color:#EEEDED;
+	font-family: 'Didact Gothic', sans-serif;
+	padding-top:-50px;
+	align-content: right;
+}
+.fa-app-store{
+	font-size: 30px;
+	color:#EEEDED;
+	padding: 25px;
+}
+.fa-app-store:hover{
+	color:#1A1A1A
+}
+header{
+	background:#6C86C3;
+	height: 80vh;/*make height 80% of viewport */
+	display: flex;/*start allowing for centering content */
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;/* puts items under each other*/ 
+}
+
+.HowTo{
+	background:#EEEDED;
+	padding: 100px 0;
+}
+.HowTo h3{
+	font-size: 80px;
+	color: #6C86C3;
+	font-family: 'Kaushan Script', cursive;
+	padding-bottom: 20px;
+	padding-top: 120px;
+	text-align: center;
+}
+.HowTo p{
+	font-size: 20px;
+	line-height: 1.8;
+	color:#6C86C3;
+	padding-top: 80px;
+	text-align: center;
+}
+.container{
+	width:980px;
+	margin: 0 auto;
+}
+.Step2{
+	background:#6C86C3;
+	padding: 100px 0;
+}
+.Step2 h3{
+	font-size: 80px;
+	color: #EEEDED;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 20px;
+}
+.Step2 p{
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.8;
+	padding-top: 80px;
+	color: #EEEDED
+}
+
+.Step3{
+	background:#EEEDED;
+	padding: 100px 0;
+}
+
+.Step3 h3{
+	font-size: 80px;
+	color: #6C86C3;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 120px;
+
+}
+
+.Step3 p{
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.8;
+	padding-top: 80px;
+	color: #6C86C3
+}
+
+.Download{
+	background:#6C86C3;
+	padding: 100px 0;
+}
+.Download h3{
+	font-size: 80px;
+	color: #EEEDED;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 120px;
+
+}
+
+.Download p{
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.8;
+	padding-top: 80px;
+	color: #EEEDED
+}
+
+nav{
+	background: #6C86C3	;
+	height: 55px;
+	position: fixed;
+	width: 100%;
+	z-index: 200;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+nav ul{
+	float: right;
+	line-height: 3.5;
+}
+
+nav li{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+nav li a{
+	color:#EEEDED;
+	padding:10px;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	color:#EEEDED;
+}
+#back-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+	background: rgba(190, 199, 213, 0.4);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	z-index: 1200;
+	
+}
+
+#back-top a{
+	border: none !important;
+	width: 50px;
+    height: 50px;
+    display: block;
+	margin-left: 12px;
+	margin-top:5px;
+	color:#6c86c3;
+	font-size: 30px;
+}
+#back-top i {
+    color: #6C86C3;
+    margin: 0;
+    position: relative;	
+    left: 15px;
+    top: 3px;
+    font-size: 25px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#back-top:hover {
+    background: rgba(190, 199, 213, 0.8);
+}
+#back-top:hover i {
+    color: #6C86C3;
+    top: 5px;
+}
+
+section:focus, header:focus{
+	outline : none !important;
+}
+
+.col-right {
+	float: right; width: 460px;
+}
+
+.col-left {
+	float: left; width: 460px;
+}
+
+.pic1 {margin-right:220px;	
+}
+.pic3 {margin-right:220px;
+}
+.pic4 {align-content: center
+}
+.pic5 {
+	float: right;
+	padding-top: 150px;
+	padding-bottom: 0px;
+}
+.pic2{
+   margin-left:220px;
+}
+
+
+.HowTo {overflow:auto;}
+
+.Step2 {overflow:auto;}
+
+.Step3 {overflow:auto;}
+
+.Download {overflow:auto}
+
