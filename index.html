@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Catch!</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Kaushan+Script" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<nav>
+	
+		<ul>
+            <li><a href="#home">Home</a></li>
+             <li><a href="#HowTo">How To</a></li>       
+             <li><a href="#Download">Download</a></li>
+        
+        </ul>	
+</nav>
+<header class="home" id="home" data-anchor="gallery">
+	<h1>Catch!</h1>
+	<h2>Capture Colour Effortlessly</h2>
+	<i class="fab fa-app-store"></i> 
+	<a href="https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?mt=8&path=appstore"><img src="img/appstore.png" alt="" class="img-responsive pic4" width="150" height="68"/></a>
+	</header>
+<section class="HowTo" id="HowTo" data-anchor="HowTo">
+	<div class="container">
+	<img src="img/firstscreenshot.png" alt="" class="img-responsive pic1" width="300" height="638"/>
+		<div class="col-right">	
+    <h3>Step 1</h3>
+	<p>Open the App and take a photograph of the subject you would like to capture the colour from.</p>
+		</div>
+	</div>
+ </section>
+	<section class="Step2" id="Step2" data-anchor="Step2">
+	<div class="container">
+	<img src="img/secscreenshot.png" alt="" class="img-responsive pic2" width="300" height="638"/>
+ 	    <div class="col-left">
+<h3>Step 2</h3>
+	<p>Tap on the area you would like to capture colour from, add multiple colours to create a palette, Zoom by pinching two fingers.</p>
+		</div>
+		</div>
+	</section>
+	<section class="Step3" id="Step3" data-anchor="Step3">
+	<div class="container">
+	<img src="img/thirdscreenshot.png" alt="" class="img-responsive pic3" width="300" height="638"/>
+	    <div class="col-right">
+<h3>Step 3</h3>
+	<p>Click done and there we have it, all your captured colours in one palette for you with their unique hexadecimal codes.</p>
+		</div>
+		</div>
+	</section>
+	<section class="Download" id="Download" data-anchor="Download">
+	<div class="container"> <a href="https://search.itunes.apple.com/WebObjects/MZContentLink.woa/wa/link?mt=8&path=appstore"><img src="img/appstore.png" alt="" class="img-responsive pic5" width="300" height="136"/></a>
+	    <div class="col-left">
+<h3>Download</h3>
+	<p>Use the Link on the right to download the app in the Apple App Store (Coming soon to Google Play Store) </p>
+		</div>
+		</div>
+	</section>
+	<p id="back-top">
+		<a href="#top"><span></span><i class="fa fa-arrow-up " aria-hidden="true"></i></a>
+	</p>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easings.min.js"></script>
+	   <script type="text/javascript" src="js/page-scroll.js"></script>
+    <script src="js/lightbox.min.js"></script>
+		<script>
+		   // hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		"use strict";
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+		
+		
+	}); 
+	  </script>
+</body>
+</html>
